@@ -1,0 +1,45 @@
+// The following two lines import the default Sencha Touch theme. If you are building
+// a new theme, remove them and the add your own CSS on top of the base CSS (which
+// is already included in your app.json file).
+@import 'sencha-touch/default';
+@import 'sencha-touch/default/all';
+
+/* Center the disclosure button vertically */
+.x-list .x-list-item.list-item-custom .x-list-disclosure {
+    margin-top:13px;
+}
+.list-item-title
+{
+    height:1em;
+    width:100%;
+    white-space: nowrap;  
+    overflow: hidden;  
+    text-overflow: ellipsis;  
+    padding-right:25px;
+    margin-bottom:5px;
+}
+.list-item-narrative
+{
+    height:1em;
+    width:95%;
+    color:#666666;
+    white-space: nowrap;  
+    overflow: hidden;  
+    text-overflow: ellipsis;   
+    padding-right:25px;
+    font-size:80%;
+}
+
+.x-item-selected .list-item-title 
+{
+    color:#ffffff;
+}
+.x-item-selected .list-item-narrative
+{
+    color:#ffffff;
+}
+.notes-list-empty-text 
+{
+    padding:10px;
+}
+
