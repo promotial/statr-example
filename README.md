@@ -1,6 +1,6 @@
 Example of a sencha touch app using STATR
 ====================================
-This is a project exemplifying STATR for Sencha Touch, an end-to-end testing solution combining combining Karma, Selenium Webdriver and Yadda.
+This is a project exemplifying [STATR](https://github.com/promotial/statr), an end-to-end testing solution combining combining Karma, Selenium Webdriver and Yadda.
 
 Instructions
 ------------
