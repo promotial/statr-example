@@ -12,6 +12,7 @@ Now clone this project's git repo and run:
   git submodule update
   cd test/statr
   git checkout
+  ./generate/app-stub NotesApp > app.js;
   ./statr first
 ```
 
@@ -21,4 +22,4 @@ And every time you want to start it again, run this:
   ./statr start
 ```
 
-NOTE: The actual app being tested is a modified version of the notes app found in this book http://miamicoder.com/sencha-touch-book/ all rights are reserved to its author.
+NOTE: The actual app being tested is a modified version of the notes app found in this tutorial http://miamicoder.com/2012/how-to-create-a-sencha-touch-2-app-part-1/ all rights are reserved to its author.
